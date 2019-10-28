@@ -46,6 +46,11 @@ master.menu.anonymous.cardenalBulletin.create = Create a Cardenal bulletin!
 master.menu.anonymous.sola-bulletin.create = Create a Sola bulletin!
 master.menu.anonymous.sola-bulletin.list = List Sola bulletins
 
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcement.list = List of announcements
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

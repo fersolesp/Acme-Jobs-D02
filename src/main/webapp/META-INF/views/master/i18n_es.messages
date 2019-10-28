@@ -46,6 +46,11 @@ master.menu.anonymous.cardenalBulletin.create = Crear un boletín Cardenal
 master.menu.anonymous.sola-bulletin.create = Crear un boletín Sola
 master.menu.anonymous.sola-bulletin.list = Lista de boletines Sola
 
+#master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.announcement.list = Lista de anuncios
+
 
 # master.menu.administrator ###################################################
 
