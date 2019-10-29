@@ -43,6 +43,8 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.create" action="/anonymous/sola-bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.list" action="/anonymous/sola-bulletin/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.investor-records.list" action="/anonymous/investor-records/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">

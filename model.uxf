@@ -409,4 +409,21 @@ Announcement
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>664</y>
+      <w>264</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+InvestorRecords
+--
++investorName:String{NotBlank}
++workSector:String{NotBlank}
++investingStatement:String{NotBlank}
++stars:Integer{Range(0,5)}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
