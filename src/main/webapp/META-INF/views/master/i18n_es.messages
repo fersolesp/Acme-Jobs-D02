@@ -45,6 +45,7 @@ master.menu.anonymous.cardenalBulletin.list = Lista de boletines Cardenal
 master.menu.anonymous.cardenalBulletin.create = Crear un boletín Cardenal
 master.menu.anonymous.sola-bulletin.create = Crear un boletín Sola
 master.menu.anonymous.sola-bulletin.list = Lista de boletines Sola
+master.menu.anonymous.announcement.list= Listas Anuncios
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
@@ -54,6 +55,7 @@ master.menu.authenticated.announcement.list= Listas Anuncios
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
+master.menu.administrator.announcement.list= Listar Anuncios
 master.menu.administrator.shutdown = Parar el sistema
 
 # master.menu.provider ########################################################
