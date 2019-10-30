@@ -45,8 +45,10 @@
 			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.list" action="/anonymous/sola-bulletin/list"/>
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated() && !hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>
+			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

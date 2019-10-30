@@ -48,7 +48,9 @@ master.menu.anonymous.sola-bulletin.list = Lista de boletines Sola
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
-master.menu.authenticated.announcement.list= Listas Anuncios
+master.menu.authenticated.announcement.list= Lista de Anuncios
+master.menu.authenticated.challenge.list= Lista de Desafíos
+
 
 # master.menu.administrator ###################################################
 
