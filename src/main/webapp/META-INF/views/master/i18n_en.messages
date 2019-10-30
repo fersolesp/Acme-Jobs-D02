@@ -49,6 +49,7 @@ master.menu.anonymous.sola-bulletin.list = List Sola bulletins
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Authenticated
 master.menu.authenticated.announcement.list= List Announcements
+master.menu.authenticated.offer.list= List Offers
 
 # master.menu.administrator ###################################################
 
