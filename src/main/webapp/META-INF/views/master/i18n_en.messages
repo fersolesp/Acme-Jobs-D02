@@ -30,13 +30,17 @@ master.menu.sign-out = Sign out
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link-pablo = Pablo's favourite link
 master.menu.anonymous.favourite-link-josemaria = Jose Maria's Favourite Link
-master.menu.anonymous.cornacBulletin.create = Create a Cornac bulletin!
-master.menu.anonymous.cornacBulletin.list = List Cornac bulletins
 master.menu.anonymous.favourite-link-Reyes = Reyes' Favourite link
 master.menu.anonymous.favourite-link-fernando = Fernando's favourite link
 master.menu.anonymous.favourite-link-vanessa = Vanessa's favourite link
 master.menu.anonymous.shout.create = Shout!
 master.menu.anonymous.shout.list = List shouts
+
+# master.menu.anonymous.first ################################################
+
+master.menu.anonymous.first = First Delivery
+master.menu.anonymous.cornacBulletin.create = Create a Cornac bulletin!
+master.menu.anonymous.cornacBulletin.list = List Cornac bulletins
 master.menu.anonymous.blascoBulletin.list= List Blasco bulletins
 master.menu.anonymous.blascoBulletin.create= Create a Blasco bulletin!
 master.menu.anonymous.pradas-bulletin.create = Create a Pradas bulletin!
@@ -46,9 +50,15 @@ master.menu.anonymous.cardenalBulletin.create = Create a Cardenal bulletin!
 master.menu.anonymous.sola-bulletin.create = Create a Sola bulletin!
 master.menu.anonymous.sola-bulletin.list = List Sola bulletins
 
+# master.menu.anonymous.second ################################################
+
+master.menu.anonymous.second = Second Delivery
+master.menu.anonymous.companyRecord.list = List of company records
+
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Authenticated
 master.menu.authenticated.announcement.list= List Announcements
+master.menu.authenticated.companyRecord.list = List of company records
 
 # master.menu.administrator ###################################################
 

@@ -31,6 +31,8 @@
 
     drop table if exists `cardenal_bulletin`;
 
+    drop table if exists `company_record`;
+
     drop table if exists `consumer`;
 
     drop table if exists `cornac_bulletin`;
