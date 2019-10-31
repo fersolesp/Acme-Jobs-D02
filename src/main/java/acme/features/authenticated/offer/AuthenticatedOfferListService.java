@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import acme.entities.offers.Offer;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
+import acme.framework.entities.Administrator;
 import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
@@ -26,6 +27,7 @@ public class AuthenticatedOfferListService implements AbstractListService<Authen
 	@Override
 	public boolean authorise(final Request<Offer> request) {
 		assert request != null;
+		assert !request.getPrincipal().hasRole(Administrator.class);
 		return true;
 	}
 
