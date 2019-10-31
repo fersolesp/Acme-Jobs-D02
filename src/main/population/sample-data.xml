@@ -151,5 +151,31 @@
         <property name="moreInfo" value="http://www.example.com"/>
         <property name="text" value="This is a very old announcement"/>
     </bean>
-	
+	<!-- Offers -->
+	<bean id="offer01" class="acme.entities.offers.Offer">
+        <property name="ticker" value="OXXXX-99999"/>
+        <property name="title" value="Sample offer 01"/>
+        <property name="moment" value="2019/08/12 12:00"/>
+        <property name="deadline" value="2020/09/15 13:00"/>
+        <property name="description" value="This is a description of Sample offer 01"/>
+        <property name="money" value="1000€"/>
+    </bean>
+
+    <bean id="offer02" class="acme.entities.offers.Offer">
+        <property name="ticker" value="OAAAA-45678"/>
+        <property name="title" value="Sample offer 02"/>
+        <property name="moment" value="2019/09/12 14:00"/>
+        <property name="deadline" value="2020/10/15 15:00"/>
+        <property name="description" value="This is a description of Sample offer 02"/>
+        <property name="money" value="2000€"/>
+    </bean>
+
+    <bean id="offer03" class="acme.entities.offers.Offer">
+        <property name="ticker" value="OAAAA-00000"/>
+        <property name="title" value="Sample offer 03"/>
+        <property name="moment" value="2019/10/12 16:00"/>
+        <property name="deadline" value="2020/11/15 17:00"/>
+        <property name="description" value="This is a description of Sample offer 03"/>
+        <property name="money" value="1500€"/>
+    </bean>
 </beans>

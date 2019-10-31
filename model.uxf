@@ -409,4 +409,23 @@ Announcement
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>152</y>
+      <w>200</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Offers
+--
++ ticker: String {Pattern(OXXXX-99999),Unique}
++ title: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP),Past}
++ deadline: Date {Temporal(TIMESTAMP),Future}
++ description: String{NotBlank}
++ money: Money</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
