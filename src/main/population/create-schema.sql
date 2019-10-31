@@ -66,6 +66,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `investor_records` (
+       `id` integer not null,
+        `version` integer not null,
+        `investing_statement` varchar(255),
+        `investor_name` varchar(255),
+        `stars` integer,
+        `work_sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+    
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
