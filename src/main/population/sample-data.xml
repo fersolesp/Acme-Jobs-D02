@@ -171,7 +171,7 @@
     </bean>
 
     <bean id="offer03" class="acme.entities.offers.Offer">
-        <property name="ticker" value="Oaaaa-00000"/>
+        <property name="ticker" value="OAAAA-00000"/>
         <property name="title" value="Sample offer 03"/>
         <property name="moment" value="2019/10/12 16:00"/>
         <property name="deadline" value="2020/11/15 17:00"/>
