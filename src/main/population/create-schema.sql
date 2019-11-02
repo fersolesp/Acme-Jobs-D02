@@ -75,7 +75,7 @@
         `work_sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
+
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
