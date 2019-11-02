@@ -1,16 +1,19 @@
 
-package acme.entities.announcements;
+package acme.entities.requests;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
+import javax.validation.constraints.Pattern;
 
-import org.hibernate.validator.constraints.URL;
-
+import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,7 +21,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Announcement extends DomainEntity {
+public class Request extends DomainEntity {
 
 	/**
 	 *
@@ -32,10 +35,18 @@ public class Announcement extends DomainEntity {
 	@Past
 	private Date				moment;
 
-	@URL
-	private String				moreInfo;
+	@Temporal(TemporalType.TIMESTAMP)
+	@Future
+	private Date				deadline;
 
 	@NotBlank
 	private String				text;
+
+	@NotNull
+	private Money				reward;
+
+	@Column(unique = true)
+	@Pattern(regexp = "^R[A-Z]{4}-[0-9]{5}$")
+	private String				ticker;
 
 }

@@ -50,20 +50,28 @@ master.menu.anonymous.cardenalBulletin.create = Create a Cardenal bulletin!
 master.menu.anonymous.sola-bulletin.create = Create a Sola bulletin!
 master.menu.anonymous.sola-bulletin.list = List Sola bulletins
 
+
 # master.menu.anonymous.second ################################################
 
-master.menu.anonymous.second = Second Delivery
-master.menu.anonymous.companyRecord.list = List of company records
+master.menu.anonymous.second = Anonymous 2
+master.menu.anonymous.companyRecord.list = List Company Records
+master.menu.anonymous.announcement.list= List Announcements
+master.menu.anonymous.investor-records.list = List investor records
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Authenticated
 master.menu.authenticated.announcement.list= List Announcements
-master.menu.authenticated.companyRecord.list = List of company records
+master.menu.authenticated.companyRecord.list = List Company Records
+master.menu.authenticated.request.list= List Requests
+master.menu.authenticated.challenge.list= List Challenges
+master.menu.authenticated.investor-records.list = List Investor Records
+master.menu.authenticated.offer.list= List Offers
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.announcement.list= List Announcements
 master.menu.administrator.shutdown = Shut down
 
 # master.menu.provider ########################################################
