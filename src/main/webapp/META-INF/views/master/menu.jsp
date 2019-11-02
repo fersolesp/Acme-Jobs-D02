@@ -19,7 +19,6 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-pablo" action="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=7738301078718444385"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-josemaria" action="http://ev.us.es/"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-Reyes" action="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=17710857660115944719"/>
@@ -28,7 +27,9 @@
 			<acme:menu-separator/>			
 			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
-			<acme:menu-separator/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymous.bulletins" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.cornacBulletin.create" action="/anonymous/cornac-bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.cornacBulletin.list" action="/anonymous/cornac-bulletin/list"/>
 			<acme:menu-separator/>
@@ -43,11 +44,17 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.create" action="/anonymous/sola-bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.list" action="/anonymous/sola-bulletin/list"/>
-			<acme:menu-separator/>
+			
+		</acme:menu-option>		
+    
+		<acme:menu-option code="master.menu.anonymous.second" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.companyRecord.list" action="/anonymous/company-record/list"/>
+      <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
       <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.investor-records.list" action="/anonymous/investor-records/list"/>
 		</acme:menu-option>
+		
     
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
@@ -60,6 +67,8 @@
 			<acme:menu-suboption code="master.menu.authenticated.investor-records.list" action="/authenticated/investor-records/list"/>
 						<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.offer.list" action="/authenticated/offer/list"/>
+      <acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.companyRecord.list" action="/authenticated/company-record/list"/>
 		</acme:menu-option>
 
     

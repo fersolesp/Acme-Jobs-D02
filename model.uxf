@@ -412,6 +412,28 @@ Announcement
   <element>
     <id>UMLClass</id>
     <coordinates>
+      <x>272</x>
+      <y>568</y>
+      <w>304</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>CompanyRecords
+--
++ companyName: String {NotBlank}
++ sector: String {NotBlank}
++ ceo: String {NotBlank}
++ description: String {NotBlank}
++ url: String {URL, NotBlank}
++ phone: String {Pattern, NotBlank} 
++ email: String {Email, NotBlank}
++ incorporated: boolean {NotBlank}
++ stars: Integer {Range(0,5)}
+</panel_attributes>
+      <additional_attributes/>
+ </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
       <x>873</x>
       <y>711</y>
       <w>315</w>

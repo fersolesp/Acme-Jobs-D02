@@ -48,6 +48,21 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `company_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `ceo` varchar(255),
+        `company_name` varchar(255),
+        `description` varchar(255),
+        `email` varchar(255),
+        `incorporated` bit not null,
+        `phone` varchar(255),
+        `sector` varchar(255),
+        `stars` integer,
+        `url` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+    
     create table `challenge` (
        `id` integer not null,
         `version` integer not null,

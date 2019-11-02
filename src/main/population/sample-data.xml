@@ -51,7 +51,6 @@
 		<property name="moment" value="2019/08/31 02:36"/>
 	</bean>
 	
-
 		<!-- BlascoBulletins -->
 
 	<bean id="blascoBulletin01" class="acme.entities.blascoBulletins.BlascoBulletin">
@@ -111,6 +110,7 @@
 		<property name="skills" value="C++"/>
 		<property name="moment" value="2019/09/12 00:00"/>
   </bean>
+  
     <!-- SolaBulletins -->
 
 	<bean id="solaBulletin01" class="acme.entities.solaBulletins.SolaBulletin">
@@ -130,7 +130,9 @@
 		<property name="contribution" value="Caminante no hay camino, se hace camino al andar"/>
 		<property name="moment" value="2019/09/22 01:45"/>
 	</bean>
+	
 	<!-- Announcements -->
+	
 	<bean id="announcement01" class="acme.entities.announcements.Announcement">
         <property name="title" value="Sample announcement 01"/>
         <property name="moment" value="2019/06/10 10:35"/>
@@ -204,6 +206,44 @@
         <property name="workSector" value="WorkSector 03"/>
         <property name="investingStatement" value="This is an investing statement"/>
         <property name="stars" value="4"/>
+    </bean>
+    
+    	<!-- Announcements -->
+    
+    <bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
+    	<property name="companyName" value="NightSkills, Inc."/>
+    	<property name="sector" value="Esports"/>
+    	<property name="ceo" value="Iván Espinosa"/>
+    	<property name="description" value="This is our first company record for the fans"/>
+    	<property name="url" value="http://www.example.com"/>
+    	<property name="phone" value="+034945876321"/>
+    	<property name="email" value="example@alum.us.es"/>
+    	<property name="incorporated" value="true"/>
+    	<property name="stars"><null/></property>
+    </bean>
+    
+    <bean id="companyRecord02" class="acme.entities.companyRecords.CompanyRecord">
+    	<property name="companyName" value="Fekyx, LLC"/>
+    	<property name="sector" value="Esports"/>
+    	<property name="ceo" value="Javier Maroto"/>
+    	<property name="description" value="This is our first company record for the follower"/>
+    	<property name="url" value="http://www.example.com"/>
+    	<property name="phone" value="+034(1009)998721309"/>
+    	<property name="email" value="example@alum.us.es"/>
+    	<property name="incorporated" value="false"/>
+    	<property name="stars"><null/></property>
+    </bean>
+    
+    <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
+    	<property name="companyName" value="Neek, Inc."/>
+    	<property name="sector" value="Esports"/>
+    	<property name="ceo" value="Iván García"/>
+    	<property name="description" value="This is our first company record for the integrants of the organization"/>
+    	<property name="url" value="http://www.example.com"/>
+    	<property name="phone" value="+034900851234"/>
+    	<property name="email" value="example@alum.us.es"/>
+    	<property name="incorporated" value="true"/>
+    	<property name="stars" value="4"/>
     </bean>
 	
 	<!-- Challenges -->
