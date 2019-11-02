@@ -50,6 +50,7 @@ master.menu.anonymous.investor-records.list = Lista de registros de inversores
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
+master.menu.authenticated.request.list= Listar Solicitudes
 master.menu.authenticated.announcement.list= Lista de Anuncios
 master.menu.authenticated.challenge.list= Lista de Desafíos
 master.menu.authenticated.investor-records.list = Lista de Registros de Inversores

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>8</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -265,8 +265,8 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>640</x>
       <y>0</y>
-      <w>272</w>
-      <h>104</h>
+      <w>306</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 UserAccount
@@ -408,6 +408,25 @@ Announcement
 + moreInfo: String {URL}
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>873</x>
+      <y>711</y>
+      <w>315</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Request
+--
++ title: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP),Past}
++ deadline: Date {Temporal(TIMESTAMP),Future}
++ text: String {NotBlank}
++ reward: Money {NotNull}
++ticker: String {Unique,Pattern}</panel_attributes>
+<additional_attributes/>
   </element>
 <element>
     <id>UMLClass</id>

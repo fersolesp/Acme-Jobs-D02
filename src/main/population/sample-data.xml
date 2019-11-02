@@ -150,8 +150,8 @@
         <property name="moment" value="1900/10/10 19:10"/>
         <property name="moreInfo" value="http://www.example.com"/>
         <property name="text" value="This is a very old announcement"/>
-    </bean>
-    
+  </bean>
+
     <bean id="announcement04" class="acme.entities.announcements.Announcement">
         <property name="title" value="Sample of announcement 04"/>
         <property name="moment" value="2019/10/20 19:10"/>
@@ -159,6 +159,32 @@
         <property name="text" value="This is an announcement"/>
     </bean>
 
+  <!-- Requests -->
+    <bean id="request01" class="acme.entities.requests.Request">
+    	<property name="title" value="Request 01"/>
+    	<property name="moment" value="2019/06/10 00:00"/>
+    	<property name="deadline" value="2020/08/10 00:00"/>
+    	<property name="text" value="This is a description"/> 
+    	<property name="reward" value="3000€"/>
+    	<property name="ticker" value="RABCD-12345"/>
+    </bean>
+        <bean id="request02" class="acme.entities.requests.Request">
+    	<property name="title" value="Request 02"/>
+    	<property name="moment" value="2019/05/24 17:00"/>
+    	<property name="deadline" value="2020/09/30 00:00"/>
+    	<property name="text" value="This is a description of another request"/> 
+    	<property name="reward" value="2000€"/>
+    	<property name="ticker" value="RQORE-22360"/>
+    </bean>
+        <bean id="request03" class="acme.entities.requests.Request">
+    	<property name="title" value="Request 03"/>
+    	<property name="moment" value="2019/10/20 12:00"/>
+    	<property name="deadline" value="2020/07/07 00:00"/>
+    	<property name="text" value="This is a description of the request 03"/> 
+    	<property name="reward" value="1500€"/>
+    	<property name="ticker" value="RAHJS-92367"/>
+    </bean>
+  
     	<!-- InvestorRecords -->
 	<bean id="investorRecords01" class="acme.entities.investorRecords.InvestorRecords">
         <property name="investorName" value="Investor name 01"/>
