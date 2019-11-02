@@ -208,7 +208,7 @@
         <property name="stars" value="4"/>
     </bean>
     
-    	<!-- Announcements -->
+    	<!-- CompanyRecords -->
     
     <bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="NightSkills, Inc."/>
@@ -313,4 +313,17 @@
         <property name="minReward" value="1500€"/>
         <property name="maxReward" value="2500€"/>
     </bean>
+    
+    <!-- CustomisationParameters -->
+    
+    <bean id="customisationParameters01" class="acme.entities.customisationParameters.CustomisationParameter">
+        <property name="spamWordList" value="sex, hard core, viagra, cialis, nigeria, you've won, million dollar"/>
+        <property name="spamThreshold" value="1.0"/>
+    </bean>
+    
+    <bean id="customisationParameters02" class="acme.entities.customisationParameters.CustomisationParameter">
+        <property name="spamWordList" value="sexo, explícito, viagra, cialis, nigeria, has ganado, un millón de dolares"/>
+        <property name="spamThreshold" value="1.0"/>
+    </bean>
+    
 </beans>
