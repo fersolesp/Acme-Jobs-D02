@@ -30,6 +30,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `banners` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `targeturl` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `blasco_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -63,6 +72,16 @@
         `silver_reward_amount` double precision,
         `silver_reward_currency` varchar(255),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `commercial_banners` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `targeturl` varchar(255),
+        `credit_card` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -106,6 +125,16 @@
         `investor_name` varchar(255),
         `stars` integer,
         `work_sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `non_commercial_banners` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `targeturl` varchar(255),
+        `jingle` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
