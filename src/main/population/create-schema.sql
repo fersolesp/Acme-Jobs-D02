@@ -71,9 +71,11 @@
         `version` integer not null,
         `deadline` datetime(6),
         `description` varchar(255),
+        `max_reward_amount` double precision,
+        `max_reward_currency` varchar(255),
+        `min_reward_amount` double precision,
+        `min_reward_currency` varchar(255),
         `moment` datetime(6),
-        `money_amount` double precision,
-        `money_currency` varchar(255),
         `ticker` varchar(255),
         `title` varchar(255),
         primary key (`id`)

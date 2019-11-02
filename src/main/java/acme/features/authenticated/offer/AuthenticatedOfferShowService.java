@@ -25,7 +25,6 @@ public class AuthenticatedOfferShowService implements AbstractShowService<Authen
 	@Override
 	public boolean authorise(final Request<Offer> request) {
 		assert request != null;
-		assert !request.getPrincipal().hasRole(Administrator.class);
 		return true;
 	}
 
@@ -34,7 +33,7 @@ public class AuthenticatedOfferShowService implements AbstractShowService<Authen
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		request.unbind(entity, model, "title", "moment", "deadline", "description", "money", "ticker");
+		request.unbind(entity, model, "title", "moment", "deadline", "description", "minReward", "maxReward", "ticker");
 	}
 
 	@Override

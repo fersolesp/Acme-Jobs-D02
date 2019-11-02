@@ -8,7 +8,11 @@
 	<acme:form-moment code="authenticated.offer.form.label.moment" path="moment"/>
 	<acme:form-moment code="authenticated.offer.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="authenticated.offer.form.label.description" path="description"/>
-	<acme:form-textbox code="authenticated.offer.form.label.money" path="money"/>
 	<acme:form-textbox code="authenticated.offer.form.label.ticker" path="ticker"/>
+	<acme:form-panel code="authenticated.offer.form.label.reward">
+		<acme:form-textbox code="authenticated.offer.form.label.minReward" path="minReward"/>
+		<acme:form-textbox code="authenticated.offer.form.label.maxReward" path="maxReward"/>
+	</acme:form-panel>
+
 	<acme:form-return code="authenticated.offer.form.button.return"/>
 </acme:form>

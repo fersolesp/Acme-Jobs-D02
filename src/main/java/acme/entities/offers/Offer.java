@@ -9,6 +9,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 
@@ -22,7 +23,7 @@ import lombok.Setter;
 @Setter
 public class Offer extends DomainEntity {
 
-	private static final long	serialVersionUID	= 1L;
+	private static final long	serialVersionUID	= 2L;
 
 	@Pattern(regexp = "(O)([A-Z]{4})(-)([0-9]{5})")
 	@Column(unique = true)
@@ -42,5 +43,9 @@ public class Offer extends DomainEntity {
 	@NotBlank
 	private String				description;
 
-	private Money				money;
+	@NotNull
+	private Money				minReward;
+
+	@NotNull
+	private Money				maxReward;
 }
