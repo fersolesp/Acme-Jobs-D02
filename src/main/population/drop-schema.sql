@@ -37,6 +37,10 @@
 
     drop table if exists `cornac_bulletin`;
 
+    drop table if exists `investor_records`;
+
+    drop table if exists `offer`;
+
     drop table if exists `pradas_bulletin`;
 
     drop table if exists `provider`;

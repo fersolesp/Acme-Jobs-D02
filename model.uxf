@@ -409,9 +409,9 @@ Announcement
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
-  <element>
+<element>
     <id>UMLClass</id>
-    <coordinates>
+    <coordinates>               
       <x>40</x>
       <y>752</y>
       <w>256</w>
@@ -429,6 +429,43 @@ Challenge
 + silverReward: Money {NotNull}
 + bronzeGoal: String {NotBlank}
 + bronzeReward: Money {NotNull}</panel_attributes>
+<additional_attributes/>
+  </element>
+    <element>
+    <id>UMLClass</id>
+    <coordinates>  
+      <x>96</x>
+      <y>664</y>
+      <w>264</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+InvestorRecords
+--
++investorName:String{NotBlank}
++workSector:String{NotBlank}
++investingStatement:String{NotBlank}
++stars:Integer{Range(0,5)}</panel_attributes>
+  <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>152</y>
+      <w>200</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Offers
+--
++ ticker: String {Pattern,Unique}
++ title: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP),Past}
++ deadline: Date {Temporal(TIMESTAMP),Future}
++ description: String{NotBlank}
++ minReward: Money{NotNull}
++ maxReward: Money{NotNull}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
