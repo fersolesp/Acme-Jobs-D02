@@ -36,9 +36,9 @@ master.menu.anonymous.favourite-link-vanessa = Enlace favorito de Vanessa
 master.menu.anonymous.shout.create = Gritar!
 master.menu.anonymous.shout.list = Lista de Gritos
 
-# master.menu.anonymous.first ################################################
+# master.menu.anonymous.bulletins ################################################
 
-master.menu.anonymous.first = Boletines
+master.menu.anonymous.bulletins = Boletines
 master.menu.anonymous.cornacBulletin.create = Crear un boletín Cornac
 master.menu.anonymous.cornacBulletin.list = Lista de boletines Cornac
 master.menu.anonymous.blascoBulletin.list= Lista de boletines Blasco
@@ -55,7 +55,7 @@ master.menu.anonymous.sola-bulletin.list = Lista de boletines Sola
 master.menu.anonymous.second = Anónimo 2
 master.menu.anonymous.companyRecord.list = Lista de Registro de Empresa
 master.menu.anonymous.announcement.list= Listas Anuncios
-master.menu.anonymous.investor-records.list = Lista de registros de inversores
+master.menu.anonymous.investor-records.list = Lista de Registros de Inversores
 
 
 # master.menu.authenticated ###################################################

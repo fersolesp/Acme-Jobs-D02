@@ -48,21 +48,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `company_record` (
-       `id` integer not null,
-        `version` integer not null,
-        `ceo` varchar(255),
-        `company_name` varchar(255),
-        `description` varchar(255),
-        `email` varchar(255),
-        `incorporated` bit not null,
-        `phone` varchar(255),
-        `sector` varchar(255),
-        `stars` integer,
-        `url` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-    
     create table `challenge` (
        `id` integer not null,
         `version` integer not null,
@@ -78,6 +63,21 @@
         `silver_reward_amount` double precision,
         `silver_reward_currency` varchar(255),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `company_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `ceo` varchar(255),
+        `company_name` varchar(255),
+        `description` varchar(255),
+        `email` varchar(255),
+        `incorporated` bit not null,
+        `phone` varchar(255),
+        `sector` varchar(255),
+        `stars` integer,
+        `url` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -191,11 +191,11 @@
 
     insert into `hibernate_sequence` values ( 1 );
 
-    alter table `request` 
-       add constraint UK_9mxq3powq8tqctclj0fbi2nih unique (`ticker`);
-       
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
+
+    alter table `request` 
+       add constraint UK_9mxq3powq8tqctclj0fbi2nih unique (`ticker`);
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

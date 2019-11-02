@@ -4,8 +4,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="authenticated.investor-records.list.label.investorName" path="investorName" width="20%"/>
-	<acme:list-column code="authenticated.investor-records.list.label.workSector" path="workSector" width="20%"/>
-	<acme:list-column code="authenticated.investor-records.list.label.investingStatement" path="investingStatement" width="60%"/>
-	<acme:list-column code="authenticated.investor-records.list.label.stars" path="stars" width="60%"/>
+	<acme:list-column code="authenticated.investor-records.list.label.investorName" path="investorName" width="40%"/>
+	<acme:list-column code="authenticated.investor-records.list.label.workSector" path="workSector" width="40%"/>
+	<acme:list-column code="authenticated.investor-records.list.label.stars" path="stars" width="20%"/>
 </acme:list>
