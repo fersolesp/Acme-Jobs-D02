@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.requests.Request;
 import acme.framework.components.Model;
-import acme.framework.entities.Administrator;
 import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
@@ -23,7 +22,6 @@ public class AuthenticatedRequestListService implements AbstractListService<Auth
 	public boolean authorise(final acme.framework.components.Request<Request> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
-		assert !request.getPrincipal().hasRole(Administrator.class);
 		return true;
 	}
 
