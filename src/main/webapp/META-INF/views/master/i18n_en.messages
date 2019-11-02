@@ -45,6 +45,7 @@ master.menu.anonymous.cardenalBulletin.list = List Cardenal bulletins
 master.menu.anonymous.cardenalBulletin.create = Create a Cardenal bulletin!
 master.menu.anonymous.sola-bulletin.create = Create a Sola bulletin!
 master.menu.anonymous.sola-bulletin.list = List Sola bulletins
+master.menu.anonymous.announcement.list= List Announcements
 master.menu.anonymous.investor-records.list = List investor records
 
 # master.menu.authenticated ###################################################
@@ -58,6 +59,7 @@ master.menu.authenticated.offer.list= List Offers
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.announcement.list= List Announcements
 master.menu.administrator.shutdown = Shut down
 
 # master.menu.provider ########################################################
