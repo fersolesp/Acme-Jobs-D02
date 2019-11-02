@@ -1,5 +1,5 @@
 
-package acme.features.authenticated.announcement;
+package acme.features.anonymous.announcement;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -7,20 +7,21 @@ import org.springframework.stereotype.Service;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Authenticated;
+import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractShowService;
 
 @Service
-public class AuthenticatedAnnouncementShowService implements AbstractShowService<Authenticated, Announcement> {
+public class AnonymousAnnouncementShowService implements AbstractShowService<Anonymous, Announcement> {
 
 	@Autowired
-	private AuthenticatedAnnouncementRepository repository;
+	private AnonymousAnnouncementRepository repository;
 
 
 	@Override
 	public boolean authorise(final Request<Announcement> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
+
 		return true;
 	}
 
