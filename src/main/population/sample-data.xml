@@ -151,6 +151,28 @@
         <property name="moreInfo" value="http://www.example.com"/>
         <property name="text" value="This is a very old announcement"/>
     </bean>
+
+    	<!-- InvestorRecords -->
+	<bean id="investorRecords01" class="acme.entities.investorRecords.InvestorRecords">
+        <property name="investorName" value="Investor name 01"/>
+        <property name="workSector" value="WorkSector 01"/>
+        <property name="investingStatement" value="This is an investing statement"/>
+        <property name="stars" value="0"/>
+    </bean>
+
+    <bean id="investorRecords02" class="acme.entities.investorRecords.InvestorRecords">
+        <property name="investorName" value="Investor name 02"/>
+        <property name="workSector" value="WorkSector 02"/>
+        <property name="investingStatement" value="This is an investing statement"/>
+    </bean>
+
+    <bean id="investorRecords03" class="acme.entities.investorRecords.InvestorRecords">
+        <property name="investorName" value="Investor name 03"/>
+        <property name="workSector" value="WorkSector 03"/>
+        <property name="investingStatement" value="This is an investing statement"/>
+        <property name="stars" value="4"/>
+    </bean>
+	
 	<!-- Offers -->
 	<bean id="offer01" class="acme.entities.offers.Offer">
         <property name="ticker" value="OXXXX-99999"/>
