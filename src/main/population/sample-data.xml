@@ -208,7 +208,8 @@
         <property name="silverReward" value="2€"/>
         <property name="bronzeGoal" value="This is the Bronze level goal"/>
         <property name="bronzeReward" value="1€"/>
-
+	</bean>
+	
     <!-- Offers -->
 	<bean id="offer01" class="acme.entities.offers.Offer">
         <property name="ticker" value="OXXXX-99999"/>
