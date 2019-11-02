@@ -424,11 +424,11 @@ Challenge
 + deadline: Date {Temporal(TIMESTAMP),Future}
 + description: String {NotBlank}
 + goldGoal: String {NotBlank}
-+ goldReward: String {NotBlank}
++ goldReward: Money {NotNull}
 + silverGoal: String {NotBlank}
-+ silverReward: String {NotBlank}
++ silverReward: Money {NotNull}
 + bronzeGoal: String {NotBlank}
-+ bronzeReward: String {NotBlank}</panel_attributes>
++ bronzeReward: Money {NotNull}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

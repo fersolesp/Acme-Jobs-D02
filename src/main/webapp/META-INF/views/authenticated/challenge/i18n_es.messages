@@ -11,5 +11,8 @@ authenticated.challenge.form.label.silverReward= Recompensa nivel plata:
 authenticated.challenge.form.label.bronzeGoal= Objetivo nivel bronce:
 authenticated.challenge.form.label.bronzeReward= Recompensa nivel bronce:
 
+authenticated.challenge.form.label.gold = Nivel Oro
+authenticated.challenge.form.label.silver = Nivel Plata
+authenticated.challenge.form.label.bronze = Nivel Bronze
 
 authenticated.challenge.form.button.return= Volver
