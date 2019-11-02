@@ -31,9 +31,15 @@
 
     drop table if exists `cardenal_bulletin`;
 
+    drop table if exists `challenge`;
+
     drop table if exists `consumer`;
 
     drop table if exists `cornac_bulletin`;
+
+    drop table if exists `investor_records`;
+
+    drop table if exists `offer`;
 
     drop table if exists `pradas_bulletin`;
 
