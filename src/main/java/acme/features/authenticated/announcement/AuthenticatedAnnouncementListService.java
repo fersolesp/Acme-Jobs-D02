@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Administrator;
 import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
@@ -24,7 +23,6 @@ public class AuthenticatedAnnouncementListService implements AbstractListService
 	public boolean authorise(final Request<Announcement> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
-		assert !request.getPrincipal().hasRole(Administrator.class);
 		return true;
 	}
 
