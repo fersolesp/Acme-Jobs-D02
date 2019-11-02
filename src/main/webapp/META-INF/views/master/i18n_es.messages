@@ -38,7 +38,7 @@ master.menu.anonymous.shout.list = Lista de Gritos
 
 # master.menu.anonymous.first ################################################
 
-master.menu.anonymous.first = Primera entrega
+master.menu.anonymous.first = Boletines
 master.menu.anonymous.cornacBulletin.create = Crear un boletín Cornac
 master.menu.anonymous.cornacBulletin.list = Lista de boletines Cornac
 master.menu.anonymous.blascoBulletin.list= Lista de boletines Blasco

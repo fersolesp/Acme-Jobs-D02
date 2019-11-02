@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import acme.entities.companyRecords.CompanyRecord;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Administrator;
 import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
@@ -23,7 +22,6 @@ public class AuthenticatedCompanyRecordListService implements AbstractListServic
 	@Override
 	public boolean authorise(final Request<CompanyRecord> request) {
 		assert request != null;
-		assert !request.getPrincipal().hasRole(Administrator.class);
 
 		return true;
 	}
