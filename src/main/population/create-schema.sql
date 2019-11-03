@@ -118,6 +118,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `customisation_parameter` (
+       `id` integer not null,
+        `version` integer not null,
+        `spam_threshold` double precision,
+        `spam_word_list` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `investor_records` (
        `id` integer not null,
         `version` integer not null,

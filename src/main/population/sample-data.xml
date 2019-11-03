@@ -208,7 +208,7 @@
         <property name="stars" value="4"/>
     </bean>
     
-    	<!-- Announcements -->
+    	<!-- CompanyRecords -->
     
     <bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="NightSkills, Inc."/>
@@ -314,24 +314,6 @@
         <property name="maxReward" value="2500€"/>
     </bean>
     
-        <!-- Banners -->
-	<bean id="banner01" class="acme.entities.banners.Banners">
-        <property name="picture" value="https://dcewboipbvgi2.cloudfront.net/sites/default/files/styles/article_hero_image/public/040092014_Piglet.jpg?itok=cy6Le8D1"/>
-        <property name="slogan" value="Si quieres, puedes"/>
-        <property name="targetURL" value="https://hackertyper.net/"/>
-    </bean>
-
-    <bean id="banner02" class="acme.entities.banners.Banners">
-        <property name="picture" value="https://dcewboipbvgi2.cloudfront.net/sites/default/files/styles/article_hero_image/public/040092014_Piglet.jpg?itok=cy6Le8D1"/>
-        <property name="slogan" value="Yo no soy tonto"/>
-        <property name="targetURL" value="https://hackertyper.net/"/>
-    </bean>
-
-    <bean id="banner03" class="acme.entities.banners.Banners">
-        <property name="picture" value="https://dcewboipbvgi2.cloudfront.net/sites/default/files/styles/article_hero_image/public/040092014_Piglet.jpg?itok=cy6Le8D1"/>
-        <property name="slogan" value="Estudia y aprobarás"/>
-        <property name="targetURL" value="https://hackertyper.net/"/>
-    </bean>
     
             <!-- CommercialBanners -->
 	<bean id="commercialBanner01" class="acme.entities.commercialBanners.CommercialBanners">
@@ -376,4 +358,17 @@
         <property name="targetURL" value="https://hackertyper.net/"/>
         <property name="jingle" value=""/>
     </bean>
+  
+    <!-- CustomisationParameters -->
+    
+    <bean id="customisationParameters01" class="acme.entities.customisationParameters.CustomisationParameter">
+        <property name="spamWordList" value="sex, hard core, viagra, cialis, nigeria, you've won, million dollar"/>
+        <property name="spamThreshold" value="1.0"/>
+    </bean>
+    
+    <bean id="customisationParameters02" class="acme.entities.customisationParameters.CustomisationParameter">
+        <property name="spamWordList" value="sexo, explícito, viagra, cialis, nigeria, has ganado, un millón de dolares"/>
+        <property name="spamThreshold" value="1.0"/>
+    </bean>
+    
 </beans>

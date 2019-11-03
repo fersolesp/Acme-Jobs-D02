@@ -43,6 +43,8 @@
 
     drop table if exists `cornac_bulletin`;
 
+    drop table if exists `customisation_parameter`;
+
     drop table if exists `investor_records`;
 
     drop table if exists `non_commercial_banners`;
