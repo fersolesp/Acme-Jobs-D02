@@ -205,7 +205,7 @@
         <property name="investorName" value="Investor name 03"/>
         <property name="workSector" value="WorkSector 03"/>
         <property name="investingStatement" value="This is an investing statement"/>
-        <property name="stars" value="4"/>
+        <property name="stars" value="5"/>
     </bean>
     
     	<!-- Announcements -->
@@ -231,7 +231,7 @@
     	<property name="phone" value="+034(1009)998721309"/>
     	<property name="email" value="example@alum.us.es"/>
     	<property name="incorporated" value="false"/>
-    	<property name="stars"><null/></property>
+    	<property name="stars" value="5"/>
     </bean>
     
     <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
