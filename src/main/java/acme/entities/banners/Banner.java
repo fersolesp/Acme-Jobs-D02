@@ -13,7 +13,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Banners extends DomainEntity {
+public abstract class Banner extends DomainEntity {
 	//Serializacion identifier ------------------------------
 
 	private static final long	serialVersionUID	= 1L;

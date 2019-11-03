@@ -30,15 +30,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `banners` (
-       `id` integer not null,
-        `version` integer not null,
-        `picture` varchar(255),
-        `slogan` varchar(255),
-        `targeturl` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `blasco_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -75,7 +66,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `commercial_banners` (
+    create table `commercial_banner` (
        `id` integer not null,
         `version` integer not null,
         `picture` varchar(255),
@@ -136,7 +127,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `non_commercial_banners` (
+    create table `non_commercial_banner` (
        `id` integer not null,
         `version` integer not null,
         `picture` varchar(255),
