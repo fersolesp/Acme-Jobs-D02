@@ -49,10 +49,12 @@
     
 		<acme:menu-option code="master.menu.anonymous.second" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.companyRecord.list" action="/anonymous/company-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.topCompanyRecord.list" action="/anonymous/company-record/list-top"/>
       <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
       <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.investor-records.list" action="/anonymous/investor-records/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.top-investor-records.list" action="/anonymous/investor-records/list-top"/>
 		</acme:menu-option>
 		
     

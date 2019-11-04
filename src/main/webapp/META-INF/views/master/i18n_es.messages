@@ -54,8 +54,10 @@ master.menu.anonymous.sola-bulletin.list = Lista de boletines Sola
 
 master.menu.anonymous.second = Anónimo 2
 master.menu.anonymous.companyRecord.list = Lista de Registro de Empresa
+master.menu.anonymous.topCompanyRecord.list = Lista de los mejores Registros de Empresa
 master.menu.anonymous.announcement.list= Listas Anuncios
 master.menu.anonymous.investor-records.list = Lista de Registros de Inversores
+master.menu.anonymous.top-investor-records.list = Lista de los mejores Registros de Inversores
 
 
 # master.menu.authenticated ###################################################

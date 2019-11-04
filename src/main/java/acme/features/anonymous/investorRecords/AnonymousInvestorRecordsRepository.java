@@ -18,4 +18,7 @@ public interface AnonymousInvestorRecordsRepository extends AbstractRepository {
 	@Query("select a from InvestorRecords a")
 	Collection<InvestorRecords> findMany();
 
+	@Query("select a from InvestorRecords a where(a.stars=5)")
+	Collection<InvestorRecords> findTopOnes();
+
 }
