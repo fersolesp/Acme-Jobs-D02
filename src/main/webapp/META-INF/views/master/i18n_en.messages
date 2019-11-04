@@ -75,6 +75,7 @@ master.menu.administrator.announcement.list= List Announcements
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.dashboard.listing = Display Indicators
 master.menu.administrator.customisationParameter.list = Display Customisation Parameters
+master.menu.administrator.chart= Companies and Investors per Sector
 
 # master.menu.provider ########################################################
 
