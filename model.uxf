@@ -445,10 +445,10 @@ Request
 --
 + title: String {NotBlank}
 + moment: Date {Temporal(TIMESTAMP),Past}
-+ deadline: Date {Temporal(TIMESTAMP),Future}
++ deadline: Date {Temporal(TIMESTAMP)}
 + text: String {NotBlank}
 + reward: Money {NotNull}
-+ticker: String {Unique,Pattern}</panel_attributes>
++ticker: String {Unique,Pattern,NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -501,10 +501,10 @@ InvestorRecords
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Offers
 --
-+ ticker: String {Pattern,Unique}
++ ticker: String {Pattern,Unique,NotBlank}
 + title: String {NotBlank}
 + moment: Date {Temporal(TIMESTAMP),Past}
-+ deadline: Date {Temporal(TIMESTAMP),Future}
++ deadline: Date {Temporal(TIMESTAMP)}
 + description: String{NotBlank}
 + minReward: Money{NotNull}
 + maxReward: Money{NotNull}</panel_attributes>
