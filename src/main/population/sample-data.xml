@@ -190,7 +190,7 @@
     	<!-- InvestorRecords -->
 	<bean id="investorRecords01" class="acme.entities.investorRecords.InvestorRecords">
         <property name="investorName" value="Investor name 01"/>
-        <property name="workSector" value="WorkSector 01"/>
+        <property name="workSector" value="WorkSector 03"/>
         <property name="investingStatement" value="This is an investing statement"/>
         <property name="stars" value="0"/>
     </bean>
@@ -203,14 +203,14 @@
 
     <bean id="investorRecords03" class="acme.entities.investorRecords.InvestorRecords">
         <property name="investorName" value="Investor name 03"/>
-        <property name="workSector" value="WorkSector 03"/>
+        <property name="workSector" value="WorkSector 01"/>
         <property name="investingStatement" value="This is an investing statement"/>
         <property name="stars" value="5"/>
     </bean>
     
      <bean id="investorRecords04" class="acme.entities.investorRecords.InvestorRecords">
         <property name="investorName" value="Investor name 04"/>
-        <property name="workSector" value="WorkSector 03"/>
+        <property name="workSector" value="WorkSector 01"/>
         <property name="investingStatement" value="This is an investing statement"/>
         <property name="stars" value="4"/>
     </bean>
@@ -219,7 +219,7 @@
     
     <bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="NightSkills, Inc."/>
-    	<property name="sector" value="WorkSector 01"/>
+    	<property name="sector" value="WorkSector 03"/>
     	<property name="ceo" value="Iván Espinosa"/>
     	<property name="description" value="This is our first company record for the fans"/>
     	<property name="url" value="http://www.example.com"/>
@@ -244,6 +244,18 @@
     <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="Neek, Inc."/>
     	<property name="sector" value="WorkSector 02"/>
+    	<property name="ceo" value="Iván García"/>
+    	<property name="description" value="This is our first company record for the integrants of the organization"/>
+    	<property name="url" value="http://www.example.com"/>
+    	<property name="phone" value="+034900851234"/>
+    	<property name="email" value="example@alum.us.es"/>
+    	<property name="incorporated" value="true"/>
+    	<property name="stars" value="4"/>
+    </bean>
+    
+     <bean id="companyRecord04" class="acme.entities.companyRecords.CompanyRecord">
+    	<property name="companyName" value="Neek, Inc."/>
+    	<property name="sector" value="WorkSector 04"/>
     	<property name="ceo" value="Iván García"/>
     	<property name="description" value="This is our first company record for the integrants of the organization"/>
     	<property name="url" value="http://www.example.com"/>
