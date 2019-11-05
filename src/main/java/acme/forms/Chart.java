@@ -15,8 +15,8 @@ public class Chart implements Serializable {
 	 */
 	private static final long	serialVersionUID	= 1L;
 
-	Object[]					totalNumberOfCompaniesBySector;
-	Object[]					totalNumberOfInvestorsBySector;
+	Object[]					CommonSectorsOfCompanies;
+	Object[]					CommonSectorsOfInvestors;
 	Object[]					investorSector;
 	Object[]					companySector;
 
