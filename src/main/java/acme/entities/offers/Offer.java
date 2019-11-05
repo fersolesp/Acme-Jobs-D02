@@ -7,7 +7,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
@@ -25,6 +24,7 @@ public class Offer extends DomainEntity {
 
 	private static final long	serialVersionUID	= 2L;
 
+	@NotBlank
 	@Pattern(regexp = "(O)([A-Z]{4})(-)([0-9]{5})")
 	@Column(unique = true)
 	private String				ticker;
@@ -37,7 +37,6 @@ public class Offer extends DomainEntity {
 	private Date				moment;
 
 	@Temporal(TemporalType.TIMESTAMP)
-	@Future
 	private Date				deadline;
 
 	@NotBlank

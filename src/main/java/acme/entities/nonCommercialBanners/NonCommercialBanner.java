@@ -2,7 +2,6 @@
 package acme.entities.nonCommercialBanners;
 
 import javax.persistence.Entity;
-import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.URL;
 
@@ -19,6 +18,5 @@ public class NonCommercialBanner extends Banner {
 	private static final long	serialVersionUID	= 1L;
 
 	@URL
-	@NotNull
 	private String				jingle;
 }
