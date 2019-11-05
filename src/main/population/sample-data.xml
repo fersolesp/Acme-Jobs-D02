@@ -247,7 +247,7 @@
     	<property name="ceo" value="Iván García"/>
     	<property name="description" value="This is our first company record for the integrants of the organization"/>
     	<property name="url" value="http://www.example.com"/>
-    	<property name="phone" value="+034900851234"/>
+    	<property name="phone" value="900851234"/>
     	<property name="email" value="example@alum.us.es"/>
     	<property name="incorporated" value="true"/>
     	<property name="stars" value="4"/>
