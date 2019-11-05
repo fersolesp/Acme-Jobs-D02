@@ -208,11 +208,18 @@
         <property name="stars" value="5"/>
     </bean>
     
+     <bean id="investorRecords04" class="acme.entities.investorRecords.InvestorRecords">
+        <property name="investorName" value="Investor name 04"/>
+        <property name="workSector" value="WorkSector 03"/>
+        <property name="investingStatement" value="This is an investing statement"/>
+        <property name="stars" value="4"/>
+    </bean>
+    
     	<!-- CompanyRecords -->
     
     <bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="NightSkills, Inc."/>
-    	<property name="sector" value="Esports"/>
+    	<property name="sector" value="WorkSector 01"/>
     	<property name="ceo" value="Iván Espinosa"/>
     	<property name="description" value="This is our first company record for the fans"/>
     	<property name="url" value="http://www.example.com"/>
@@ -224,7 +231,7 @@
     
     <bean id="companyRecord02" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="Fekyx, LLC"/>
-    	<property name="sector" value="Esports"/>
+    	<property name="sector" value="WorkSector 01"/>
     	<property name="ceo" value="Javier Maroto"/>
     	<property name="description" value="This is our first company record for the follower"/>
     	<property name="url" value="http://www.example.com"/>
@@ -236,7 +243,7 @@
     
     <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
     	<property name="companyName" value="Neek, Inc."/>
-    	<property name="sector" value="Esports"/>
+    	<property name="sector" value="WorkSector 02"/>
     	<property name="ceo" value="Iván García"/>
     	<property name="description" value="This is our first company record for the integrants of the organization"/>
     	<property name="url" value="http://www.example.com"/>
