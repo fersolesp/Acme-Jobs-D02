@@ -30,15 +30,15 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	@Query("SELECT stddev(a.reward.amount) FROM Request a where a.deadline > current_date()")
 	Object[] findStandardDeviationRewardOfActiveRequests();
 
-	@Query("SELECT max(a.maxReward.amount) FROM Offer a where a.deadline > current_date()")
+	@Query("SELECT max((a.maxReward.amount + a.minReward.amount)/2) FROM Offer a where a.deadline > current_date()")
 	Object[] findMaxRewardOfActiveOffers();
 
-	@Query("SELECT min(a.maxReward.amount) FROM Offer a where a.deadline > current_date()")
+	@Query("SELECT min((a.maxReward.amount + a.minReward.amount)/2) FROM Offer a where a.deadline > current_date()")
 	Object[] findMinRewardOfActiveOffers();
 
-	@Query("SELECT avg(a.maxReward.amount) FROM Offer a where a.deadline > current_date()")
+	@Query("SELECT avg((a.maxReward.amount + a.minReward.amount)/2) FROM Offer a where a.deadline > current_date()")
 	Object[] findAvgRewardOfActiveOffers();
 
-	@Query("SELECT stddev(a.maxReward.amount) FROM Offer a where a.deadline > current_date()")
+	@Query("SELECT stddev((a.maxReward.amount + a.minReward.amount)/2) FROM Offer a where a.deadline > current_date()")
 	Object[] findStandardDeviationRewardOfActiveOffers();
 }

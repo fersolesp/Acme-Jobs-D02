@@ -165,7 +165,7 @@
     <bean id="request01" class="acme.entities.requests.Request">
     	<property name="title" value="Request 01"/>
     	<property name="moment" value="2019/06/10 00:00"/>
-    	<property name="deadline" value="2020/08/10 00:00"/>
+    	<property name="deadline" value="2019/08/10 00:00"/>
     	<property name="text" value="This is a description"/> 
     	<property name="reward" value="3000€"/>
     	<property name="ticker" value="RABCD-12345"/>
@@ -268,7 +268,7 @@
 	<!-- Challenges -->
 	<bean id="challenge01" class="acme.entities.challenges.Challenge">
         <property name="title" value="Sample challenge 01"/>
-        <property name="deadline" value="2019/12/10 10:35"/>
+        <property name="deadline" value="2020/06/10 10:35"/>
         <property name="description" value="Challenge number 1!"/>
         <property name="goldGoal" value="This is the Gold level goal"/>
         <property name="goldReward" value="5€"/>
@@ -292,7 +292,7 @@
 	
 	<bean id="challenge03" class="acme.entities.challenges.Challenge">
         <property name="title" value="Sample challenge 03"/>
-        <property name="deadline" value="2020/02/10 10:35"/>
+        <property name="deadline" value="2020/06/10 10:35"/>
         <property name="description" value="Challenge number 3!"/>
         <property name="goldGoal" value="This is the Gold level goal"/>
         <property name="goldReward" value="5€"/>
@@ -306,8 +306,8 @@
 	<bean id="offer01" class="acme.entities.offers.Offer">
         <property name="ticker" value="OXXXX-99999"/>
         <property name="title" value="Sample offer 01"/>
-        <property name="moment" value="2019/08/12 12:00"/>
-        <property name="deadline" value="2020/09/15 13:00"/>
+        <property name="moment" value="2017/08/12 12:00"/>
+        <property name="deadline" value="2018/09/15 13:00"/>
         <property name="description" value="This is a description of Sample offer 01"/>
         <property name="minReward" value="1000€"/>
         <property name="maxReward" value="1300€"/>
